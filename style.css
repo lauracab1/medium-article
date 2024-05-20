@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-size: 18px;
+  color: rgba(0,0,0,0.7);
+  font-family: 'Lora', serif;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  padding: 120px 0;
+  color: #ffffff;
+}
+
+h1 {
+  line-height: 2.5;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-weight: 400;
+  color: rgba(0,0,0,0.4);
+  font-size: 28px;
+}
+
+.banner,
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: 700px;
+  margin: 12px;
+}
+
+.banner .container h1 {
+  font-size: 38px;
+}
+
+.banner .container p {
+  font-size: 28px;
+}
+
+.main-content .container {
+  margin: 50px auto;
+}
+
+h2 {
+  font-weight: 400;
+  color: rgba(0,0,0,0.4);
+}
+
+.medium-link {
+  background-color: rgba(91, 255, 91, 0.1);
+  font-style: italic;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(0,0,0,0.6);
+  line-height: 2;
+}
+
+.medium-link:hover {
+  background-color: rgba(96, 232, 96);
+}
